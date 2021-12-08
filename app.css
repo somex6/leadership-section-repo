@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    justify-content: center;
+    background-color: rgb(207, 250, 207);
+}
+
+.header {
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.leader_cards {
+    margin: 30px 70px 10px 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.leader_card {
+    background: rgba(252, 251, 251, 0.966);
+    width: 300px;
+    height: 550px;
+    justify-content: space-around;
+    grid-gap: 2rem;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.leader_card > h2 {
+    padding-top: 30px;
+    font-weight: 400;
+}
+
+.leader_card > p {
+    padding: 8px 0 20px;
+    font-weight: 400;
+    color: gray;
+    font-size: 15px;
+}
+
+.leader_card > img {
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+.leader_card > div > ul {
+    margin-left: 20px;
+}
+.leader_card > div > ul > li {
+    line-height: 40px;
+    font-size: 15;
+}
+
+.leader_card > .linkedin > a {
+    text-decoration: none;
+    font-weight: 700;
+}
